@@ -1,0 +1,29 @@
+.centered {
+    text-align: center;
+}
+
+.header-background {
+    background: url('/img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: auto;
+}
+
+.header-title {
+    padding-top: 150px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: white;
+}
+
+.header-content {
+    font-family: sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+    color: white;
+    align-self: center;
+}
