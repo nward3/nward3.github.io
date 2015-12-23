@@ -50,6 +50,36 @@ header {
     color: black;
 }
 
-.img-border {
+.img-container {
+    margin: auto;
+}
+
+.project {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.project-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: dodgerblue;
+}
+
+.project-description {
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    color: black;
+}
+
+.project-img-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: auto;
 }
