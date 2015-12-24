@@ -27,7 +27,6 @@ header {
     font-weight: 250;
     font-size: 20px;
     color: white;
-    align-self: center;
 }
 
 .row-content {
@@ -82,4 +81,13 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: auto;
+}
+
+.section-underline {
+    width: 100px;
+    margin: 5px auto;
+    height: 3px;
+    background-color: black;
+    color: black;
+    border: 0 none;
 }
