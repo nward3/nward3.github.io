@@ -37,7 +37,7 @@ header {
     font-family: sans-serif;
     font-weight: 600;
     font-size: 48px;
-    color: black;
+    color: #222;
 }
 
 .section-content {
@@ -46,7 +46,7 @@ header {
     font-family: sans-serif;
     font-weight: 350;
     font-size: 16px;
-    color: black;
+    color: #777;
 }
 
 .img-container {
@@ -74,7 +74,7 @@ header {
     font-family: sans-serif;
     font-weight: 350;
     font-size: 16px;
-    color: black;
+    color: #777;
 }
 
 .project-img-container {
@@ -87,7 +87,39 @@ header {
     width: 100px;
     margin: 5px auto;
     height: 3px;
-    background-color: black;
+    background-color: #777;
     color: black;
     border: 0 none;
+}
+
+.pad-bottom {
+    padding-bottom: 50px;
+}
+
+.icon-rnd {
+    border-radius: 25px;
+}
+
+.fa-github {
+    background-color: #222;
+}
+
+.fa-github:hover {
+    background-color: dodgerblue;
+}
+
+.fa-linkedin {
+    background-color: #222;
+}
+
+.fa-linkedin:hover {
+    background-color: dodgerblue;
+}
+
+.fa-facebook {
+    background-color: #222;
+}
+
+.fa-facebook:hover {
+    background-color: dodgerblue;
 }
