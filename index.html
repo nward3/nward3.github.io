@@ -141,7 +141,47 @@
         <hr class="col-sm-offset-1 col-sm-10">
         
         <div id="contact" class="container">
-            
+            <div class="row row-content">
+                <div class="col-sm-12 centered pad-bottom">
+                    <h2 class="section-title">contact</h2>
+                    <hr class="section-underline">
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form class="form-horizontal" action='mail/processEmail.php' method='post' role="form">
+                            <div class="form-group">
+                                <label class="col-sm-2 col-sm-offset-2 text-muted">name*</label>
+                                <div class="col-sm-6">
+                                    <input name='name' type="text" size='64' maxlength='64' class="form-control" value='' required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 col-sm-offset-2 text-muted">email*</label>
+                                <div class="col-sm-6">
+                                    <input name='email' type='text' size='64' maxlength='64' class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 col-sm-offset-2 text-muted">subject</label>
+                                <div class="col-sm-6">
+                                    <input name='subject' type='text' size='64' maxlength='64' class='form-control'>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 col-sm-offset-2 text-muted">message*</label>
+                                <div class="col-sm-6">
+                                    <textarea name='body' type="text" class="form-control" row="5" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-4 col-sm-8">
+                                    <button type='submit' value='Send' class='btn btn-md btn-success'>send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
 
 	</body>
