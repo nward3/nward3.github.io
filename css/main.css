@@ -96,30 +96,24 @@ header {
     padding-bottom: 50px;
 }
 
-.icon-rnd {
+.ghost-button {
+    display: inline-block;
+    width: 50px;
+    color: #fff;
+    font-size: 26px;
+    border: 1px solid #fff;
     border-radius: 25px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background: transparent;
+    transition: all 0.25s ease-in;
+    opacity: 1;
 }
 
-.fa-github {
-    background-color: #222;
-}
-
-.fa-github:hover {
-    background-color: dodgerblue;
-}
-
-.fa-linkedin {
-    background-color: #222;
-}
-
-.fa-linkedin:hover {
-    background-color: dodgerblue;
-}
-
-.fa-facebook {
-    background-color: #222;
-}
-
-.fa-facebook:hover {
-    background-color: dodgerblue;
+.ghost-button:hover,
+.ghost-button:active {
+    background: transparent;
+    color: #fff;
+    opacity: .65;
 }
